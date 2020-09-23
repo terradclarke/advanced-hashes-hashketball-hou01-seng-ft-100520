@@ -132,5 +132,6 @@ def number_of_points_scored player_name
     keys[:players].each do |player|
       return player[:points] if player [:player_name] == player_name
     end 
+  end 
 end 
  
